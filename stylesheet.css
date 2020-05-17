@@ -1,0 +1,102 @@
+body {
+  font-family:'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+header {
+  background-color:rgba(195,185,255,0.8);
+  height:65px;
+  width:100%;
+  position:fixed;
+  top:0;
+  z-index:10;
+  }
+.logo {
+  width:150px;
+}
+.container {
+  width:1170px;
+  margin:0 auto
+}
+.btn {
+  display:inline-block;
+  margin-right:20px;
+  background-color:#b4e0ff;
+  padding:10px 10px;
+  border-radius:4px;
+  color:#2d1100;
+}
+
+
+.top-wrapper {
+  padding:180px 0 100px 0;
+  text-align:center;
+  background-image:url(background.jpeg);
+  opacity:0.8;
+  background-size:cover;
+  color:white;
+}
+.container img {
+  height:50px;
+}
+.top-wrapper h1 {
+  font-family:cursive;
+  font-size:50px;
+  letter-spacing:5px;
+}
+.top-wrapper p {
+  font-size:30px;
+}
+.food-wrapper {
+  text-align: center;
+  height:600px;
+  background-color:#ffffe8;
+}
+.heading h2 {
+  text-align:center;
+  padding-top:20px;
+}
+.recipe {
+  width:25%;
+  float:left;
+  margin-top:30px;
+}
+.recipe-icon img{
+  height:200px;
+}
+.recipe-icon {
+  position:relative;
+}
+.recipe-icon p {
+  position: absolute;
+  top:200px;
+  width:100%;
+  background-color:#B2B2B2;
+  color:white;
+}
+.recipe-btn {
+  cursor:pointer;
+}
+.text-contents {
+  display:inline-block;
+  width:80%;
+  margin-top:50px ;
+}
+.contact-wrapper h3 {
+  font-width:bold;
+}
+.contact-wrapper p {
+  margin-top:30px;
+}
+.section-title {
+  border-bottom:2px solid #dee7ec;
+  padding-bottom:15px;
+}
+input,textarea {
+  width:400px;
+  border:1px solid #dee7ec;
+  font-size:15px;
+  padding:20px;
+}
+footer {
+  padding-top:30px;
+  font-size:10px;
+}
